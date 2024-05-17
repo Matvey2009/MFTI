@@ -1,4 +1,5 @@
 a = int(input())
-b = int(input())
-c = int(input())
-print(round((a+b+c)*0.15))
+if a % 5 == 0 and a % 7 == 0:
+	print("Делится")
+else:
+	print("Не делится")

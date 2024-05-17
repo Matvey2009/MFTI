@@ -1,12 +1,9 @@
-x = float(input())
-y = float(input())
-if x > 0 and y > 0:
-	print("Первая четверть")
-elif x < 0 and y > 0:
-	print("Вторая четверть")
-elif x < 0 and y < 0:
-	print("Третья четверть")
-elif x > 0 and y < 0:
-	print("Четвертая четверть")
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b and b == c:
+	print(3)
+elif a == b or a == c or b == c:
+	print(2)
 else:
 	print(0)

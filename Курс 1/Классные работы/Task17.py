@@ -1,1 +1,1 @@
-print(round(355/113, 6))
+print(float(input())*409.5/1000)

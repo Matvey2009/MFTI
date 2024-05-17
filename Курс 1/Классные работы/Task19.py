@@ -1,6 +1,4 @@
 a = int(input())
 b = int(input())
-if b/a*100>=75:
-	print("Вы допущены до экзаменов")
-else:
-	print("Вы остаетесь на второй год")
+c = int(input())
+print(round((a+b+c)*0.15))
